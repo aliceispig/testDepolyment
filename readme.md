@@ -1,8 +1,7 @@
 # testdepolyment
 
-> one-liner description of the module
+> build the images for nodejs 18
 
-background details relevant to understanding what this module does
 
 ## Usage
 
