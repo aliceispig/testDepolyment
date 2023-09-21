@@ -1,8 +1,9 @@
+require('dotenv').config();
 var express = require('express');
 var app = express();
 
-app.get('/', ()=>{
-    res.send('Hello World!');
+app.get('/', (req ,res)=>{
+    res.send('Hello World! v4 env: '+process.env.TEST);
 })
 
 app.listen(3000, ()=>{
